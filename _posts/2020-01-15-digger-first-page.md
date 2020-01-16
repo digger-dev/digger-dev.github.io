@@ -264,5 +264,5 @@ yarn start
 
 
 ### 4. 실행된 결과 화면
-
+---
 ![img](../assets/img/posts/digger-first-page-image1.png)
