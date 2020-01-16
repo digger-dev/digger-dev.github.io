@@ -31,6 +31,7 @@ Electron은 웹기반의 소프트웨어를 단독 프로그램으로 사용할 
 <br/>
 
 ### 2. 이런 프로젝트 구성 이유
+---
 Electron을 사용하려면 위에서 말했던것과 같이 Web URL이나 로컬의 html기반의 파일을 연결시켜줘야 합니다. 클라우드가 아닌
 로컬기반의 프로젝트인 Digo에 적용시키기 위해서는 단독 html 콘텐츠가 필요했는데 여기서 첫번째 이슈가 발생하게 되었습니다.
 <br/><br/>
@@ -40,9 +41,11 @@ Electron을 사용하려면 위에서 말했던것과 같이 Web URL이나 로�
 이러한 고민끝에 React로 프로그램을 작성하고 Webpack으로 독자적으로 작동할 수 있도록 리팩토리작업을 수행한 다음 Electron으로 묶어서
 Digo를 단독 어플리케이션으로 제작하는 구조를 도입하게 되었습니다.
 
----
 
 ### 3. 리엑트 세팅
+
+---
+
 저희는 프로젝트를 구성하면서 다음과 같이 4단계를 거쳐 진행했습니다
 1. 리엑트 세팅
 2. Webpack 세팅
@@ -51,8 +54,9 @@ Digo를 단독 어플리케이션으로 제작하는 구조를 도입하게 되�
 
 [다음 게시글](https://velog.io/@jeff0720/React-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD%EC%9D%84-%EA%B5%AC%EC%B6%95%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-Webpack-%EA%B8%B0%EC%B4%88)를 참조했습니다
 
----
+
 ### 3.1 리엑트 세팅
+---
 
 가장 먼저 수행해야하는 작업은 리엑트의 기본적인 세팅을 진행하는 것입니다. 프로젝트에 React를 설치하고 기본 프로젝트 꼴을 설정해야
 합니다. node.js를 설치한 후 npm이나 npx (또는 yarn)으로 간단하게 React App을 구성합니다.(해당 글은 npx와 yarn을 사용했습니다.)
@@ -76,8 +80,8 @@ yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader clean
 <br/><br/>
 
 
-### 3.1 Webpack 세팅
-
+### 3.2 Webpack 세팅
+---
 package.json폴더를 열어 Webpack빌드 세팅을 Script에 추가합니다.
 ```json
 {
@@ -192,7 +196,7 @@ ReactDOM.render(<Root />, document.getElementById("root"));
 여기까지 완료되었다면 잘 작동하는지 확인해보겠습니다.
 
 ### 3.3 Webpack 빌드
-
+---
 ```bash
 yarn build
 ```
@@ -209,7 +213,7 @@ yarn add -D electron electron-builder
 ```
 
 ### 3.4 Electron 빌드
-
+---
 package.json파일에 main 추가하고 scripts에 다음과 같이 start를 추가합니다.
 ```json
 "main" : "public/main.js",
@@ -257,6 +261,8 @@ yarn start
 ```
 
 <br/><br/>
-[실행된 결과 화면]
+
+
+### 4. 실행된 결과 화면
 
 ![img](../assets/img/posts/digger-first-page-image1.png)
