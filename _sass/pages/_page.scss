@@ -67,7 +67,7 @@
   .hero__title {
     font-size: 1.8em;
     color: $bg-color;
-
+    display: none;
 
     @include breakpoint($md) {
       padding: 1rem 0;
