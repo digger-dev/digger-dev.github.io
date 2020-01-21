@@ -30,7 +30,7 @@ $ npm i -g azure-functions-core-tools@2 --unsafe-perm true
 
 #### V3 설치법
 ```bash
-npm i -g azure-functions-core-tools@3 --unsafe-perm true
+$ npm i -g azure-functions-core-tools@3 --unsafe-perm true
 ```
 
 # 2.새로운 프로젝트 생성하기
@@ -53,6 +53,7 @@ npm i -g azure-functions-core-tools@3 --unsafe-perm true
 
 1. 처음 추가하여 자동으로 생성된 코드를 실행합니다. (단축키 : F5)
 2. func.ps1 cannot be loaded 에러가 나타나면 Visual Studio Code 컴맨드창에 아래 명령을 실행합니다.
+
 ```bash
 $ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ```
