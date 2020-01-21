@@ -6,7 +6,6 @@ categories: [Azure Function, Serverless, Server]
 ---
 
 **임현**
-**육승남**
 # Azure Function 입문자를 위한 사용법
 
 ```
