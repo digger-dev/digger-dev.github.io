@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+# 디거 기술 개발팀이란?
+---
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
-
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+안녕하세요 디거의 기술개발팀을 맡고 있는 정윤상입니다. 디거의 개발팀은 최고는 아니지만 맡은 문제를 완벽하게
+끝낸다는 목표를 가지고 움직이고 있습니다. 안드로이드/IOS/웹/기계학습(AI)와 같은 다양한 분야를 개발하고 있습니다.
+<br/><br/>
+최고의 기계학습 알고리즘을 만들 수는 없지만 성능이 좋은 백본들을 수집하고 문제에 적합하게 이용하는 능력을
+키우기 위해 열심히 노력하고 있습니다. 최종적으로 누구나 이런 백본들을 이용하여 자신의 문제에 쉽고 빠르게 적용할 수
+있도록 플랫폼을 제공하는것이 우리 디거 개발팀의 목표입니다.
